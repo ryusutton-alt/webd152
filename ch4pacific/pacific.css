@@ -1,0 +1,37 @@
+body {
+    background-color: #FFF;
+    color: #555;
+}
+header {
+    background-color: #002171;
+    color: #FFF;
+}
+
+nav {
+    background-color: #BBDEFB;
+}
+
+/* h1 – no bottom margin */
+h1 {
+    margin-bottom: 0;
+}
+
+/* h2 – medium blue */
+h2 {
+    color: #1976D2;
+}
+
+/* dt – dark navy */
+dt {
+    color: #002171;
+}
+
+/* address – normal font (not italic) */
+address {
+    font-style: normal;
+}
+
+/* resort – highlight class for “Pacific Trails Resort” */
+.resort {
+    color: #1976D2;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Casita Sedona</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header container">
+    <a class="brand" href="index.html">Casita <span>Sedona</span></a>
+    <nav class="main-nav" aria-label="Primary">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul id="menu" class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <form class="contact-form" action="#" method="post">
+      <div class="row">
+        <label for="name">Name</label>
+        <input id="name" name="name" required />
+      </div>
+      <div class="row">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+      </div>
+      <div class="row">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year">2025</span> Ryu Sutton</p>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="index.html">Home</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
